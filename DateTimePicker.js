@@ -1,6 +1,6 @@
 /// Criado por Janderson Costa em 21/04/2015.
 // Dependências: jquery, bootstrap (modal)
-// Exemplo: DateTimePicker.field($("input"));
+// Utilização: DateTimePicker.field($("input"));
 
 var DateTimePicker =
 {
