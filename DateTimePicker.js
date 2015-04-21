@@ -155,10 +155,8 @@ var DateTimePicker =
 				}
 				else
 				{
-					v ++;
+					v++;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else if(param === "less")
 			{
@@ -168,15 +166,15 @@ var DateTimePicker =
 				}
 				else
 				{
-					v --;
+					v--;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else
 			{
 				v = param;
 			}
+
+			v = (v < 10) ? "0" + v : v;
 
 			header.text(v);
 			field.text(v);
@@ -202,10 +200,8 @@ var DateTimePicker =
 				}
 				else
 				{
-					v ++;
+					v++;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else if(param === "less")
 			{
@@ -215,15 +211,15 @@ var DateTimePicker =
 				}
 				else
 				{
-					v --;
+					v--;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else
 			{
 				v = param;
 			}
+
+			v = (v < 10) ? "0" + v : v;
 
 			header.text(v);
 			field.text(v);	
@@ -294,10 +290,8 @@ var DateTimePicker =
 				}
 				else
 				{
-					v ++;
+					v++;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else if(param === "less")
 			{
@@ -307,15 +301,15 @@ var DateTimePicker =
 				}
 				else
 				{
-					v --;
+					v--;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else
 			{
 				v = param;
 			}
+
+			v = (v < 10) ? "0" + v : v;
 
 			header.text(v);
 			field.text(v);
@@ -341,10 +335,8 @@ var DateTimePicker =
 				}
 				else
 				{
-					v ++;
+					v++;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else if(param === "less")
 			{
@@ -354,15 +346,15 @@ var DateTimePicker =
 				}
 				else
 				{
-					v --;
+					v--;
 				}
-
-				v = (v < 10) ? "0" + v : v;
 			}
 			else
 			{
 				v = param;
 			}
+
+			v = (v < 10) ? "0" + v : v;
 
 			header.text(v);
 			field.text(v);
