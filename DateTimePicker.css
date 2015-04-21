@@ -1,0 +1,51 @@
+.dtpicker {
+    background-color: #fff;
+    padding-bottom: 1em;
+}
+
+.dtpicker-header {
+	color: #666;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.dtpicker-header label {
+	padding-left: .15em;
+	padding-right: .15em;
+}
+
+.dtpicker table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    height: 9em;
+}
+
+.dtpicker table td {
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.dtpicker-btn-m td {
+    color: #ccc;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.dtpicker-btn-l td {
+    color: #ccc;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.dtpicker-btn-m td:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.dtpicker-btn-l td:hover {
+	color: #000;
+	text-decoration: underline;
+}
