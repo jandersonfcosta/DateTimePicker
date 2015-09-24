@@ -1,4 +1,4 @@
-/// Criado por Janderson Costa em 21/04/2015.
+// Criado por Janderson Costa em 21/04/2015.
 // Dependências: jquery, bootstrap (modal)
 // Utilização: DateTimePicker.field($("input"));
 
